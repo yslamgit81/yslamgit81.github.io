@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+a {
+    color: #3F51B5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    background-color: rgb(59, 58, 58);
+    width: 130px;
+    height: 15px;
+    margin-left: auto;
+    margin-top: 20px; 
+}
+
+
+.bg{
+    background-color: #C48DF2;
+}
+.bg-1{
+    background-color: #F17992;
+}
+.bg-2{
+    background-color: #6BC2F7;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.bg-image {
+    background-image: url("../img/02\ nes.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+}
+.bg-image-2 {
+    background-image: url("../09/alex-haney-CAhjZmVk5H4-unsplash.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(0,0,0, .5);
+    
+}
+.st{
+    border-radius: 18px;
+    
+}
+
+input {
+    border-radius: 3px;
+    border: 0;
+    outline: none;
+}
+.pl{
+    padding-left: 2px;
+}
+
+.fw-90 {
+    font-size: 90px;
+    letter-spacing: 10px;
+}
+.w-150{
+    width: 280px;
+}
+
+.glow-on-hover {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+.bg-image-gradient {
+    background-image: linear-gradient(to top, #000000, #0d060a, #150c14, #18121c, #181725);
+}
+
+.bg-image-gradient-2 {
+    background-image: linear-gradient(to bottom, #000000, #0e0509, #150b13, #19111c, #191625, #1c1b39, #18204f, #002767, #002b8e, #002bb5, #0025db, #000cff);
+}
+
+
+.btn {
+    margin-top: 25px;
+    border: 1px solid black;
+    padding: 6px 20px;
+    cursor: pointer;
+    transition: .6s;
+    animation: 4s infinite example;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 12px rgb(31, 30, 30);
+    text-shadow: 4px 4px 4px rgb(41, 38, 38);
+}
+
+.bg-gradient-black {
+    background-image: linear-gradient(to right top, #000000, #050505, #090909, #0d0d0d, #111111);
+}
+
+/* 
+@keyframes example {
+    0% {
+        border: 2px solid black;
+        transform: scale(1);
+        color: black;
+        background-color: grey;
+        margin-left: 0;
+    }
+    50% {
+        border: 2px solid rgb(255, 0, 0);
+        transform: scale(0.9);
+        color: red;
+        background-color: yellow;
+        margin-right: 150px;
+    }
+    75% {
+        border: 2px solid green;
+        color: green;
+        background-color: red;
+        margin-left: 150px;
+    }
+    100% {
+        border: 2px solid black;
+        transform: scale(1);
+        background-color: green;
+        color: black;
+        margin-right: 0;
+    }
+}
+
+.test-2 {
+    animation: 5s infinite ;
+}
+
+
+@keyframes test {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 100px; background: blue;}
+    50%  {top: 100px; left: 100px; background: yellow;}
+    75%  {top: 100px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+  }
+
+@keyframes test-2 {
+    0% {
+        letter-spacing: 0;
+    }
+    50% {
+        letter-spacing: 20px;
+    }
+    75% {
+        letter-spacing: 20px;
+    }
+    100% {
+        letter-spacing: 0;
+    }
+} */
