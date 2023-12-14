@@ -17,21 +17,7 @@ a:hover {
     width: 130px;
     height: 15px;
     margin-left: auto;
-    margin-top: 20px; 
-}
-.ki{
-    color: #000;
-}
-
-
-.bg{
-    background-color: #C48DF2;
-}
-.bg-1{
-    background-color: #F17992;
-}
-.bg-2{
-    background-color: #6BC2F7;
+    margin-top: 20px;
 }
 
 .w-100 {
@@ -47,12 +33,11 @@ a:hover {
 }
 
 .bg-image {
-    background-image: url("../img/02\ nes.jpg");
+    background-image: url("../09/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 35px;
 }
 .bg-image-2 {
     background-image: url("../09/alex-haney-CAhjZmVk5H4-unsplash.jpg");
@@ -66,26 +51,16 @@ a:hover {
     background-color: rgba(0,0,0, .5);
     
 }
-.st{
-    border-radius: 18px;
-    
-}
 
 input {
     border-radius: 3px;
     border: 0;
     outline: none;
 }
-.pl{
-    padding-left: 2px;
-}
 
 .fw-90 {
     font-size: 90px;
     letter-spacing: 10px;
-}
-.w-150{
-    width: 280px;
 }
 
 .glow-on-hover {
